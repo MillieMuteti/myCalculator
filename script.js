@@ -11,6 +11,9 @@ form.addEventListener('submit', function(){
     var x = parseFloat(numField1.value);
     var y = parseFloat(numField2.value);
     
-    
+     var result = x/y;
+     var percent = result * 100;
+        
+     resultField.innerText = "Answer: " + percent + "%";
     }
 })
